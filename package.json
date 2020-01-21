@@ -1,0 +1,40 @@
+{
+  "name": "gerador-sexo",
+  "version": "0.0.0",
+  "description": "Gerador brasileiro de Sexo da pessoa",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": "bukinoshita/gerador-sexo",
+  "author": "bukinoshita <bukinoshita@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "gerador",
+    "brasileiro",
+    "sexo",
+    "pessoa",
+    "brasil",
+    "dados"
+  ],
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublish": "yarn build",
+    "test": "jest --config=jest.config.json"
+  },
+  "dependencies": {
+    "unique-random-array": "2.0.0"
+  },
+  "devDependencies": {
+    "@sindresorhus/tsconfig": "0.7.0",
+    "@types/jest": "24.9.0",
+    "@types/node": "13.1.8",
+    "jest": "24.9.0",
+    "ts-jest": "24.3.0",
+    "typescript": "3.7.5"
+  }
+}
