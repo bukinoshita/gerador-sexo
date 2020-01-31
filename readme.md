@@ -23,6 +23,12 @@ geradorSexo()
 
 Returns a `string` ([SEXO](source/types/sexo.enum.ts)).
 
+## Related
+
+- [gerador](https://github.com/bukinoshita/gerador) — Gerador de dados brasileiros
+- [gerador-nome](https://github.com/bukinoshita/gerador-nome) — Gerador brasileiro de nomes
+- [gerador-estado-civil](https://github.com/bukinoshita/gerador-estado-civil) — Gerador brasileiro de Estado Civil
+
 ## License
 
 MIT © [Bu Kinoshita](https://bukinoshita.io)
