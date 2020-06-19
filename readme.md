@@ -31,4 +31,4 @@ Returns a `string` ([SEXO](source/types/sexo.enum.ts)).
 
 ## License
 
-MIT © [Bu Kinoshita](https://bukinoshita.io)
+MIT © [Bu Kinoshita](https://bukinoshita.com)
